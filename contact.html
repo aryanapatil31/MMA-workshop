@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a Trial — Iron Cage MMA Workshops</title>
+<meta name="description" content="Book a free trial workshop at Iron Cage MMA. Send us your details and a coach will confirm your spot within 24 hours.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="6"/></svg>
+      </span>
+      <span>IRON CAGE MMA<small>Workshops &amp; Training</small></span>
+    </a>
+    <button class="nav__toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#programs">Workshops</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="index.html#pricing">Pricing</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="container">
+      <span class="eyebrow">Free trial</span>
+      <h1>Book your first workshop</h1>
+      <p class="muted">Tell us which discipline interests you and roughly when you can train.
+      A coach replies within 24 hours, usually much sooner.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:34px">
+    <div class="container contact-grid">
+
+      <div class="card reveal">
+        <h2 style="font-size:1.4rem">Trial request</h2>
+        <p class="muted" style="font-size:0.9rem">Fields marked * are required.</p>
+        <form id="booking-form" novalidate>
+          <div class="field">
+            <label for="name">Full name *</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Alex Morgan">
+            <p class="field__error" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+            <p class="field__error" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="program">Workshop you want to try *</label>
+            <select id="program" name="program">
+              <option value="">Choose a workshop…</option>
+              <option>Brazilian Jiu-Jitsu</option>
+              <option>Boxing</option>
+              <option>Muay Thai</option>
+              <option>Wrestling</option>
+              <option>MMA Fundamentals</option>
+              <option>Kids MMA (7–13)</option>
+            </select>
+            <p class="field__error" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="message">Anything we should know? *</label>
+            <textarea id="message" name="message" rows="4" placeholder="I'm a complete beginner and can train most evenings after 6pm."></textarea>
+            <p class="field__error" role="alert"></p>
+          </div>
+
+          <button class="btn btn--primary btn--block btn--lg" type="submit">Request free trial</button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+          <p class="form__note muted">Demo form — it validates on the front end and does not send
+          email yet. See the README for how to connect it.</p>
+        </form>
+      </div>
+
+      <aside class="contact-side">
+        <div class="card reveal">
+          <h3>Visit the gym</h3>
+          <ul class="info">
+            <li><span>Address</span>14 Anchor Street, Unit 3, Northgate, NG4 2HP</li>
+            <li><span>Phone</span><a href="tel:+15550142299">+1 (555) 014-2299</a></li>
+            <li><span>Email</span><a href="mailto:hello@ironcagemma.example">hello@ironcagemma.example</a></li>
+          </ul>
+        </div>
+
+        <div class="card reveal">
+          <h3>Opening hours</h3>
+          <ul class="info">
+            <li><span>Mon &ndash; Fri</span>06:00 &ndash; 21:30</li>
+            <li><span>Saturday</span>07:00 &ndash; 18:00</li>
+            <li><span>Sunday</span>08:00 &ndash; 16:00</li>
+          </ul>
+        </div>
+
+        <div class="card map reveal" aria-label="Location placeholder">
+          <span class="map__pin" aria-hidden="true"></span>
+          <p class="muted">Map placeholder — drop a Google Maps embed in here once the address is
+          final. Parking is behind the unit and the station is a four-minute walk.</p>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__inner">
+    <div>
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="6"/></svg>
+        </span>
+        <span>IRON CAGE MMA<small>Workshops &amp; Training</small></span>
+      </a>
+      <p class="muted footer__blurb">A small, stubborn gym that teaches fighting properly &mdash;
+      14 Anchor Street, Unit 3, Northgate.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul class="footer__links">
+        <li><a href="index.html#programs">Workshops</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get in touch</h4>
+      <ul class="footer__links">
+        <li><a href="tel:+15550142299">+1 (555) 014-2299</a></li>
+        <li><a href="mailto:hello@ironcagemma.example">hello@ironcagemma.example</a></li>
+        <li class="muted">Mon&ndash;Fri 06:00&ndash;21:30</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <p class="muted">&copy; <span data-year>2026</span> Iron Cage MMA. Demo site &mdash; names and prices are placeholders.</p>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

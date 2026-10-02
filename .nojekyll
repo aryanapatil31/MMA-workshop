@@ -1,0 +1,3 @@
+# Keeps GitHub Pages from running the site through Jekyll.
+# Not strictly required for this project, but it prevents folder names
+# that start with an underscore from being stripped.
